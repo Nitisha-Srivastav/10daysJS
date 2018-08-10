@@ -1,0 +1,24 @@
+Input Format
+
+Locked stub code in the editor reads a single integer,n , from stdin and passes it to a function named factorial.
+
+Output Format
+
+The function must return the value of n!.
+Solution-
+function  factorial( a)
+{
+    var fact=1;
+    while(a>0)
+        {
+            fact=fact*a;
+            a--;
+        }
+    return(fact);
+}
+
+function main() {
+    const n = +(readLine());
+    
+    console.log(factorial(n));
+}
