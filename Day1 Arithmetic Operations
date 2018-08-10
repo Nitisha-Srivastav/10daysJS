@@ -1,0 +1,36 @@
+Sample Input 
+
+3
+4.5
+Sample Output 
+
+13.5
+15
+Explanation 0
+
+The area of the rectangle is length*width . 
+The perimeter of the rectangle is 2*(length+width).
+Solution-
+
+function getArea(length, width) {
+    let area;
+    area=length*width;
+    
+    return area;
+}
+
+
+function getPerimeter(length, width) {
+    let perimeter;
+    perimeter=2*(length+width);
+    
+    return perimeter;
+}
+
+function main() {
+    const length = +(readLine());
+    const width = +(readLine());
+    
+    console.log(getArea(length, width));
+    console.log(getPerimeter(length, width));
+}
